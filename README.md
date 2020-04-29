@@ -59,7 +59,7 @@ setResult(RESULT_OK, intent)
 finish()
 ```
 ##### onActivityResult()에서 결과 확인하기	
-안드로이드에서는 onActivityResult() 메소드를 통해 호출된 액티비티에서 저장한 결과를 돌려준다. 이 때 requestCode는 처음 startActivityResult()의 두번째 인수 값이며, resultCode는 호출된 액티비티에서 설정한 성공/실패 값이다. 이를 통해 어떤 호출이었는지와 결과가 어떠한지를 알 수 있다. 세 번쨰 인수 intent는 호출된 액티비티에서 저장한 결과이다.
+안드로이드에서는 onActivityResult() 메소드를 통해 호출된 액티비티에서 저장한 결과를 돌려준다. 이 때 requestCode는 처음 startActivityResult()의 두 번째 인수 값이며, resultCode는 호출된 액티비티에서 설정한 성공/실패 값이다. 이를 통해 어떤 호출이었는지와 결과가 어떠한지를 알 수 있다. 세 번째 인수 intent는 호출된 액티비티에서 저장한 결과이다.
 ```kotlin
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
     super.onActivityResult(requestCode, resultCode, data)
