@@ -30,7 +30,7 @@ ConstraintDimensionRatio 심화 학습
         app:layout_constraintGuide_percent="0.8"/>
 ```
 
-<br><br>
+<br>
 
 #### [기본 과제2]
 ------------
@@ -42,8 +42,8 @@ ConstraintDimensionRatio 심화 학습
 <img src="https://user-images.githubusercontent.com/51014789/80586555-15718780-8a50-11ea-902b-8932187a7fb0.PNG" width="23%">
 <img src="https://user-images.githubusercontent.com/51014789/80586557-16a2b480-8a50-11ea-959f-f901351bf4f6.PNG" width="23%">
 </div>
-<br>회원가입 완료시 LoginActivity에 id와 pw가 입력되어 있다
-<br>
+회원가입 완료시 LoginActivity에 id와 pw가 입력되어 있다
+
 ##### startActivityForResult()로 Activity 호출하기
 기존에 startActivity()로 호출하던 것을 startActivityForResult()로 호출을 하면서 인수를 하나 추가한다. 이 인수는 0보다 크거나 같은 integer 값으로 추후 onActivityResult() 메소드에도 동일한 값이 전달되며 이를 통해 하나의 onActivityResult() 메소드에서 여러 개의 startActivityForResult()를 구분할 수 있다.
 ```kotlin
@@ -74,7 +74,7 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
     }
 }
 ```
-<br>
+<br><br>
 
 #### [성장 과제2]
 ------------
@@ -84,8 +84,7 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 <img src="https://user-images.githubusercontent.com/51014789/80587156-05a67300-8a51-11ea-9f7d-69dbc0323276.png" width="30%">
 로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다
 
-
-SharedPreferences.kt
+##### SharedPreferences.kt
 ```kotlin
 object SharedPreferenceController {
 
