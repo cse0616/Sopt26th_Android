@@ -1,6 +1,6 @@
 # Sopt26th_Android
 
-1차 세미나
+# [1차 세미나]
 
 기본 과제1
 ------------
@@ -20,6 +20,7 @@ ConstraintDimensionRatio 심화 학습
 <img src="https://user-images.githubusercontent.com/51014789/80586555-15718780-8a50-11ea-902b-8932187a7fb0.PNG" width="23%">
 <img src="https://user-images.githubusercontent.com/51014789/80586557-16a2b480-8a50-11ea-959f-f901351bf4f6.PNG" width="23%">
 </div>
+회원가입 완료시 LoginActivity에 id와 pw가 입력되어 있다
 
 
 성장 과제2
@@ -27,17 +28,16 @@ ConstraintDimensionRatio 심화 학습
 자동 로그인 구현하기
 - 회원가입시 LoginActivity로 돌아와 가입한 id,pw로 자동 로그인 하기
 - 로그인 하여 MainActivity로 간 경우 앱을 종료했다가 다시 켜면 LoginActivity에서 자동 로그인 하기
+<img src="https://user-images.githubusercontent.com/51014789/80587156-05a67300-8a51-11ea-9f7d-69dbc0323276.png" width="30%">
+로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다
 
+<br>
 
-
-
-2차 세미나
+# [2차 세미나]
 
 기본 과제 1
 ------------
-
 Bottom Navigation, ViewPager, RecyclerView 실습
-
 <div>
 <img src="https://user-images.githubusercontent.com/51014789/80582994-975eb200-8a4a-11ea-8255-d4629adf60ae.PNG" width="25%">
 <img src="https://user-images.githubusercontent.com/51014789/80583024-a180b080-8a4a-11ea-9338-dae654186c78.PNG" width="25%">
