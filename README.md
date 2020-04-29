@@ -1,5 +1,15 @@
 # Sopt26th_Android
 
+1차 세미나 기본 과제 1
+
+Screenshots
+------------
+
+<img src="https://user-images.githubusercontent.com/51014789/80585582-93cd2a00-8a4e-11ea-9f52-7c7172059ba9.PNG" width="30%">
+
+
+
+
 2차 세미나 기본 과제 1
 
 Screenshots
