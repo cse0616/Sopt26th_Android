@@ -31,7 +31,7 @@ ConstraintDimensionRatio 심화 학습
 <img src="https://user-images.githubusercontent.com/51014789/80587156-05a67300-8a51-11ea-9f7d-69dbc0323276.png" width="30%">
 로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다
 
-<br>
+<br><br>
 
 # 2차 세미나
 
