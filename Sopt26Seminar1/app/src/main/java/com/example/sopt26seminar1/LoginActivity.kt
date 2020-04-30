@@ -1,14 +1,19 @@
 package com.example.sopt26seminar1
 
 import android.app.Activity
+import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_login.*
+import androidx.core.os.HandlerCompat.postDelayed
+
+
 
 class LoginActivity : AppCompatActivity() {
 
@@ -48,6 +53,20 @@ class LoginActivity : AppCompatActivity() {
                 val pw = data!!.getStringExtra("password")
                 et_email.setText(email)
                 et_password.setText(pw)
+
+                if(SharedPreferenceController.getUserID(this).isEmpty()){
+                    Toast.makeText(this, "로그인을 해주세요", Toast.LENGTH_SHORT).show()
+                }
+                else{
+                    Toast.makeText(this, "자동 로그인 합니다", Toast.LENGTH_SHORT).show()
+
+                    val delayHandler = Handler()
+                    delayHandler.postDelayed(Runnable {
+                        val intent = Intent(this, MainActivity::class.java)
+                        startActivity(intent)
+                        finish()
+                    }, 2000)
+                }
             }
         }
     }

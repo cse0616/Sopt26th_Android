@@ -14,7 +14,10 @@ class MainActivity : AppCompatActivity() {
         button()
         btn_logout.setOnClickListener {
             SharedPreferenceController.clearUserID(this)
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
             finish()
+
         }
     }
 
