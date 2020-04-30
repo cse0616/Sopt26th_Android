@@ -81,8 +81,10 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 자동 로그인 구현하기
 - 회원가입시 LoginActivity로 돌아와 가입한 id,pw로 자동 로그인 하기
 - 로그인 하여 MainActivity로 간 경우 앱을 종료했다가 다시 켜면 LoginActivity에서 자동 로그인 하기
+<img src="https://user-images.githubusercontent.com/51014789/80666355-ec480a00-8ad6-11ea-920e-95a8a984fea2.png" width="30%">
+회원가입 하면 LoginActivity로 돌아와 자동으로 로그인 한다고 알려주고 2초 뒤 MainActivity로 넘어간다.
 <img src="https://user-images.githubusercontent.com/51014789/80587156-05a67300-8a51-11ea-9f7d-69dbc0323276.png" width="30%">
-로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다
+로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다.
 
 ##### SharedPreferences.kt
 ```kotlin
