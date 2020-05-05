@@ -1,8 +1,6 @@
 # Sopt26th_Android
 
 ### 1차 세미나
-
-#### [기본 과제1]
 ------------
 ConstraintDimensionRatio 심화 학습
 - ConstraintDimensionRatio 이용해서 이미지를 1:1 비율로 만들기
@@ -32,7 +30,6 @@ ConstraintDimensionRatio 심화 학습
 
 <br>
 
-#### [기본 과제2]
 ------------
 회원가입 및 로그인 기능 구현하기
 - 회원가입 완료시 LoginActivity로 돌아오고, 회원가입 성공한 id와 pw가 입력되어 있도록 구현
@@ -75,8 +72,6 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 }
 ```
 <br><br>
-
-#### [성장 과제2]
 ------------
 자동 로그인 구현하기
 - 회원가입시 LoginActivity로 돌아와 가입한 id,pw로 자동 로그인 하기
@@ -117,8 +112,6 @@ SharedPreferences를 이용하여 SharedPreferenceController의 getUserID가 비
 <br><br>
 
 ### 2차 세미나
-
-#### [기본 과제 1]
 ------------
 Bottom Navigation, ViewPager, RecyclerView 실습
 <div>
