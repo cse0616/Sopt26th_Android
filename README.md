@@ -1,8 +1,6 @@
 # Sopt26th_Android
 
 ### 1차 세미나
-
-#### [기본 과제1]
 ------------
 ConstraintDimensionRatio 심화 학습
 - ConstraintDimensionRatio 이용해서 이미지를 1:1 비율로 만들기
@@ -32,7 +30,6 @@ ConstraintDimensionRatio 심화 학습
 
 <br>
 
-#### [기본 과제2]
 ------------
 회원가입 및 로그인 기능 구현하기
 - 회원가입 완료시 LoginActivity로 돌아오고, 회원가입 성공한 id와 pw가 입력되어 있도록 구현
@@ -75,14 +72,14 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 }
 ```
 <br><br>
-
-#### [성장 과제2]
 ------------
 자동 로그인 구현하기
 - 회원가입시 LoginActivity로 돌아와 가입한 id,pw로 자동 로그인 하기
 - 로그인 하여 MainActivity로 간 경우 앱을 종료했다가 다시 켜면 LoginActivity에서 자동 로그인 하기
+<img src="https://user-images.githubusercontent.com/51014789/80666355-ec480a00-8ad6-11ea-920e-95a8a984fea2.png" width="30%">
+회원가입 하면 LoginActivity로 돌아와 자동으로 로그인 한다고 알려주고 2초 뒤 MainActivity로 넘어간다.<br><br>
 <img src="https://user-images.githubusercontent.com/51014789/80587156-05a67300-8a51-11ea-9f7d-69dbc0323276.png" width="30%">
-로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다
+로그아웃 버튼을 누르지 않는 한 앱을 종료했다가 다시 켜면 자동 로그인 toast 메시지와 함께 자동 로그인이 되고 MainActivity로 넘어간다.
 
 ##### SharedPreferences.kt
 ```kotlin
@@ -110,13 +107,11 @@ object SharedPreferenceController {
     }
 }
 ```
-위와 같은 내부 db를 이용하여 SharedPreferenceController의 getUserID가 비어있으면 로그인 액티비티를 호출하고 저장되어 있는 정보가 있을 경우 바로 로그인 다음 액티비티를 호출했다.
+SharedPreferences를 이용하여 SharedPreferenceController의 getUserID가 비어있으면 로그인 액티비티를 호출하고 저장되어 있는 정보가 있을 경우 바로 로그인 다음 액티비티를 호출했다.
 
 <br><br>
 
 ### 2차 세미나
-
-#### [기본 과제 1]
 ------------
 Bottom Navigation, ViewPager, RecyclerView 실습
 <div>
