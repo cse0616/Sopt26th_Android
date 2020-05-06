@@ -7,11 +7,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_library"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:orientation="vertical"
-            tools:listitem="@layout/item_insta">
+            tools:listitem="@layout/item_insta"
+            android:clipToPadding="false">
     </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>
