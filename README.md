@@ -102,10 +102,10 @@ RecyclerView의 itemDecoration, clipToPadding
 itemDecoration 클래스는 리사이클러뷰 내부에 있는 추상 클래스로, 리사이클러뷰의 아이템을 꾸미는 역할을 한다.
 <img src="https://user-images.githubusercontent.com/51014789/81203614-1cc20380-9003-11ea-81c6-f9d08e79ea8d.PNG" width="25%">
 RecyclerViewItemDecoration이라는 ItemDecoration 클래스를 만들어 짝수번째 아이템은 좌우 간격, 홀수번째 아이템은 상하 간격을 주도록 설정했고 DividerItemDecoration으로 VERTICAL 구분선을 추가하여 리사이클러뷰에 적용했다.
-<br>
+<br><br>
 
 - clipToPadding<br>
-리사이클러뷰에 패딩을 준 경우 패딩 공간만큼 아이템이 잘린다. 이 때 android:clipToPadding="false" 속성을 주면 스크롤시 패딩 공간을 스크롤 영역으로 활용할 수 있다.
+리사이클러뷰에 패딩을 준 경우 스크롤 시 패딩 공간만큼 아이템이 잘린다. 이 때 android:clipToPadding="false" 속성을 주면 스크롤시 패딩 공간을 스크롤 영역으로 활용할 수 있다.
 <div><img src="https://user-images.githubusercontent.com/51014789/81203981-8b9f5c80-9003-11ea-99c6-f30b4e6f835b.PNG" width="25%">
 <img src="https://user-images.githubusercontent.com/51014789/81204036-9fe35980-9003-11ea-831d-8053ae00049e.PNG" width="25%"></div>
 
