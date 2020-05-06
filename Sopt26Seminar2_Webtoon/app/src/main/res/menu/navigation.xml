@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_webtoon"
+          android:icon="@drawable/ic_today"
+          android:title="웹툰"/>
+    <item android:id="@+id/menu_recommend"
+          android:icon="@drawable/ic_timer"
+          android:title="추천완결"/>
+    <item android:id="@+id/menu_best"
+          android:icon="@drawable/ic_star_border"
+          android:title="베스트도전"/>
+    <item android:id="@+id/menu_my"
+          android:icon="@drawable/ic_tag_faces"
+          android:title="MY"/>
+    <item android:id="@+id/menu_more"
+          android:icon="@drawable/ic_more_horiz"
+          android:title="더보기"/>
+</menu>
