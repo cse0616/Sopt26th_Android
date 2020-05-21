@@ -1,4 +1,4 @@
-package com.example.sopt26seminar1
+package com.example.sopt26seminar1.data
 
 data class ResponseLogin(
     val status : Int,

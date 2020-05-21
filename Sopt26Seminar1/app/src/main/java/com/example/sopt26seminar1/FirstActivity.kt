@@ -1,7 +1,6 @@
 package com.example.sopt26seminar1
 
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
