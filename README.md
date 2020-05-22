@@ -125,4 +125,8 @@ android:ellipsize="end"
 android:maxLines="1"
 ```
 
+<br><br>
 
+### 3차 세미나
+------------
+Retrofit을 활용하여 로그인과 회원가입 부분 통신을 하고, 지금까지 진행 한 내용을 하나의 프로젝트로 합쳤다. 회원가입을 하면 LoginActivity 로 가서 자동으로 로그인을 하고, MainActivity 로 가면 인스타와 웹툰 리사이클러 뷰가 나타난다.
